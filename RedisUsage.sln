@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33417.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DistributedCache.API", "Redis_OM\DistributedCache.API\DistributedCache.API.csproj", "{D84EE4F1-280D-4AED-AC65-B84523AED3A1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DistributedCache.Infrastructure", "Redis_OM\DistributedCache.Infrastructure\DistributedCache.Infrastructure.csproj", "{B4BCA84A-4E06-4982-8ED5-44ABD70C71F2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DistributedCache.Application", "Redis_OM\DistributedCache.Applications\DistributedCache.Application.csproj", "{4548A227-1599-4B4F-B2BC-76513F53EDB9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DistributedCache.Domain", "Redis_OM\DistributedCache.Domain\DistributedCache.Domain.csproj", "{9774CFDF-A88F-41D7-8A97-AD7788DB0D31}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DistributedCache.Model", "Redis_OM\DistributedCache.Model\DistributedCache.Model.csproj", "{2AEF2805-F329-4253-815D-D8398D24AD75}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleDistributedCache.API", "Redis\SimpleDistributedCache.API\SimpleDistributedCache.API.csproj", "{415C4F9C-BA80-4148-8F2A-80BA24E00DFD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleDistributedCache.Application", "Redis\SimpleDistributedCache.Application\SimpleDistributedCache.Application.csproj", "{9B251A29-3B95-41B2-99E0-991EA1F12B6E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleDistributedCache.Domain", "Redis\SimpleDistributedCache.Domain\SimpleDistributedCache.Domain.csproj", "{DE7A183B-9252-4FF8-BC1D-6EAC50B0CF78}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleDistributedCache.Infrastructure", "Redis\SimpleDistributedCache.Infrustructure\SimpleDistributedCache.Infrastructure.csproj", "{AFC9D0C2-55F4-4DC5-8B8E-658BED6F89B4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleDistributedCache.Model", "Redis\SimpleDistributedCache.Model\SimpleDistributedCache.Model.csproj", "{FED9C641-D11B-48C9-8D1B-FC56C705920F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D84EE4F1-280D-4AED-AC65-B84523AED3A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D84EE4F1-280D-4AED-AC65-B84523AED3A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D84EE4F1-280D-4AED-AC65-B84523AED3A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D84EE4F1-280D-4AED-AC65-B84523AED3A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4BCA84A-4E06-4982-8ED5-44ABD70C71F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4BCA84A-4E06-4982-8ED5-44ABD70C71F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4BCA84A-4E06-4982-8ED5-44ABD70C71F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4BCA84A-4E06-4982-8ED5-44ABD70C71F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4548A227-1599-4B4F-B2BC-76513F53EDB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4548A227-1599-4B4F-B2BC-76513F53EDB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4548A227-1599-4B4F-B2BC-76513F53EDB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4548A227-1599-4B4F-B2BC-76513F53EDB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9774CFDF-A88F-41D7-8A97-AD7788DB0D31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9774CFDF-A88F-41D7-8A97-AD7788DB0D31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9774CFDF-A88F-41D7-8A97-AD7788DB0D31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9774CFDF-A88F-41D7-8A97-AD7788DB0D31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AEF2805-F329-4253-815D-D8398D24AD75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AEF2805-F329-4253-815D-D8398D24AD75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AEF2805-F329-4253-815D-D8398D24AD75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AEF2805-F329-4253-815D-D8398D24AD75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{415C4F9C-BA80-4148-8F2A-80BA24E00DFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{415C4F9C-BA80-4148-8F2A-80BA24E00DFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{415C4F9C-BA80-4148-8F2A-80BA24E00DFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{415C4F9C-BA80-4148-8F2A-80BA24E00DFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B251A29-3B95-41B2-99E0-991EA1F12B6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B251A29-3B95-41B2-99E0-991EA1F12B6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B251A29-3B95-41B2-99E0-991EA1F12B6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B251A29-3B95-41B2-99E0-991EA1F12B6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE7A183B-9252-4FF8-BC1D-6EAC50B0CF78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE7A183B-9252-4FF8-BC1D-6EAC50B0CF78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE7A183B-9252-4FF8-BC1D-6EAC50B0CF78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE7A183B-9252-4FF8-BC1D-6EAC50B0CF78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFC9D0C2-55F4-4DC5-8B8E-658BED6F89B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFC9D0C2-55F4-4DC5-8B8E-658BED6F89B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFC9D0C2-55F4-4DC5-8B8E-658BED6F89B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFC9D0C2-55F4-4DC5-8B8E-658BED6F89B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FED9C641-D11B-48C9-8D1B-FC56C705920F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FED9C641-D11B-48C9-8D1B-FC56C705920F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FED9C641-D11B-48C9-8D1B-FC56C705920F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FED9C641-D11B-48C9-8D1B-FC56C705920F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E4C3A377-A49F-46A9-9CA7-E12798160DDC}
+	EndGlobalSection
+EndGlobal
